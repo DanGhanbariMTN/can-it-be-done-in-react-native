@@ -3,7 +3,6 @@
     "name": "bbc-iplayer",
     "slug": "bbc-iplayer",
     "privacy": "public",
-    "sdkVersion": "33.0.0",
     "platforms": [
       "ios",
       "android",
@@ -25,6 +24,9 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
-  }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "bbc-iplayer",
+  "name": "bbciplayer"
 }
